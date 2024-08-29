@@ -1,0 +1,97 @@
+# Take input from the user to determine base length and height of a pyramid
+# Based on those inputs, calculate the volume and surface area of the pyramid.
+
+                                               Test Cases
+# Test Case 1: Base length = 5, Height = 10
+# Test Case 2: Base length = 10, Height = 20
+# Test Case 3: Base length = 15, Height = 30
+
+                     Calculate the volume of the pyramid based on the user's input values
+
+# 1.
+# Base length: 5
+# Height: 10
+# Take the base length and square it, then multiply by the height and divide by 3
+# 5**2 * 10 / 3
+# Volume of the pyramid: 83.33
+
+
+# 2.
+# Base length: 10
+# Height: 20
+# Take the base length and square it, then multiply by the height and divide by 3
+# 10**2 * 20 / 3
+# Volume of the pyramid: 666.67
+
+# 3.
+# Base length: 15
+# Height: 30
+# Take the base length and square it, then multiply by the height and divide by 3
+# 15**2 * 30 / 3
+# Volume of the pyramid: 1125
+
+
+                                         Calculate the Slant Height
+# 1.
+# Base length: 5
+# Height: 10
+# To find the slant height, use the Pythagorean theorem with the base length and height
+# sqrt(10**2 + (5/2)**2)
+# 10**2 = 100 | 5/2 = 2.5 -> 2.5**2 = 6.25
+# 100 + 6.25 = 106.25
+# The square root of 106.25 is 10.31 (rounded to two decimal places)
+
+# 2.
+# Base length: 10
+# Height: 20
+# To find the slant height, use the Pythagorean theorem with the base length and height
+# sqrt(20**2 + (10/2)**2)
+# 20**2 = 400 | 10/2 = 5 -> 5**2 = 25
+# 400 + 25 = 425
+# The square root of 425 is 20.62 (rounded to two decimal places)
+
+
+# 3.
+# Base length: 15
+# Height: 30
+# To find the slant height, use the Pythagorean theorem with the base length and height
+# sqrt(30**2 + (15/2)**2)
+# 30**2 = 900 | 15/2 = 7.5 -> 7.5**2 = 56.25
+# 900 + 56.25 = 956.25
+# The square root of 956.25 is 30.93 (rounded to two decimal places)
+
+
+                                            Calculate the Surface Area
+
+# 1.
+# Base length: 5
+# Height: 10
+# Slant height: 10.31
+# To calculate the surface area, first find the area of one pyramid side by multiplying
+# the slant height by half the base length, then multiply by 4 to account for all four sides
+# 10.31 * 5 / 2 * 4
+# Or 1/2 * 5 * 10.31 * 4
+# Simplied, it can be written like so: 4 x ( 1/2 * 5 * 10.31 )
+# Surface area of the pyramid: 103.08
+
+# 2.
+# Base length: 10
+# Height: 20
+# Slant height: 20.62
+# To calculate the surface area, first find the area of one pyramid side by multiplying
+# the slant height by half the base length, then multiply by 4 to account for all four sides
+# 20.62 * 10 / 2 * 4
+# Or 1/2 * 10 * 20.62 * 4
+# Simplied, it can be written like so: 4 x ( 1/2 * 10 * 20.62 )
+# Surface area of the pyramid: 412.31
+
+# 3.
+# Base length: 15
+# Height: 30
+# Slant height: 30.93
+# To calculate the surface area, first find the area of one pyramid side by multiplying
+# the slant height by half the base length, then multiply by 4 to account for all four sides
+# 30.93 * 15 / 2 * 4
+# Or 1/2 * 15 * 30.93 * 4
+# Simplied, it can be written like so: 4 x ( 1/2 * 15 * 30.93 )
+# Surface area of the pyramid: 927.69
